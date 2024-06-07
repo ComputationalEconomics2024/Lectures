@@ -1,0 +1,105 @@
+% !TeX document-id = {8f9ca893-77a3-4eb6-92dd-e9108410650a}
+% Second edition of Kendrick, D. A., P. R. Mercado and H.M. Amman, 2006,
+% Computational Economics}, Princeton University Press.
+% © Hans Amman, hans.amman@gmail.com
+% (c) Hans Amman, hans.amman@gmail.com
+% !TEX TS-program = pdflatex
+% !TEX encoding = UTF-8 Unicode
+
+
+
+
+
+\documentclass[12pt]{article}
+
+
+\usepackage[OT1]{fontenc} 
+
+\usepackage{mathpazo}
+%\usepackage{microtype}
+%\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{datetime}
+%\usepackage[english]{babel}
+\usepackage{tocloft}
+
+
+\usepackage{natbib}
+\usepackage[a4paper]{geometry} 
+\usepackage{graphicx}
+
+
+\usepackage{url}
+\usepackage{tabularx}
+%\usepackage{makeidx}
+%\usepackage{cemacro}
+
+\usepackage{draftwatermark}
+\SetWatermarkScale{1.2}
+\SetWatermarkLightness{0.9}
+
+
+
+
+
+\setlength\bibsep{0pt}
+\setlength\bibhang\parindent
+
+
+
+\begin{document}
+
+\pagestyle{empty}
+\include{title}
+\newpage
+\pagestyle{plain}
+\setcounter{page}{3}
+\setcounter{equation}{0}
+\include{gaportfoliomatlab.tex} 
+
+
+
+\bibliographystyle{kluwer}
+\bibliography{master}
+
+
+\end{document}
+
+\newpage
+
+\appendix
+
+\begin{center}
+\Huge \bf Appendix
+\end{center}
+
+\setcounter{equation}{0}
+\renewcommand{\theequation} {A-\arabic{equation}}
+\vskip 1cm
+\input{appendixa}
+\newpage
+
+\appendix
+
+\begin{center}
+\Huge \bf Appendices
+\end{center}
+
+\setcounter{equation}{0}
+\renewcommand{\theequation} {A-\arabic{equation}}
+\vskip 1cm
+\input{appendixj}
+\setcounter{equation}{0}
+\renewcommand{\theequation} {B-\arabic{equation}}
+\vskip 1cm
+\newpage
+\setcounter{equation}{0}
+\renewcommand{\theequation} {C-\arabic{equation}}
+\vskip 1cm
+\input{appendixc}
+\newpage
+\input{appendixf}
+
+
+ 
