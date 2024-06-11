@@ -8,9 +8,9 @@
   can then modify the model in order to analyze its sensitivity to various parameters and functional specifications. In the process of experimenting with the 
   model, one can gain an improved understanding of both the software and the economic modeling. 
 
-  With this repository we hope to provide free teaching material to learn Computational Economics. Each lecture is self-containg and
+  With this repository we hope to provide free teaching material to learn Computational Economics. Each lecture is self-contained and
   is supplemented with the corresponding code. When possible we provide code that can be used with software that is freely available on the 
-  internet, like Octave, Maxima, Libreoffice etc., lowering the threshold  for using the lectures.
+  internet, like Octave, Maxima, Libreoffice etc., lowering the threshold  for using the teaching material.
 
   If you would like to contribute to this repository please contact Hans Amman.
 
