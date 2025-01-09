@@ -1,3 +1,6 @@
+  Last our good friend and colleague David Kendrick sadly passed away. David was a driving force
+  in the Computational Economics community and was a stronf advocate of teaching 
+  
   One of the best ways to learn computational economics is to do computational economics. One of the best ways to do computational economics is to begin 
   with existing models that you modify as you experiment with them and this is the approach we take in this book. 
 
